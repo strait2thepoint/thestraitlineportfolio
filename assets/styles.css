@@ -9,7 +9,7 @@ grid-template-areas:
 }
 
 :root {
---pad: 2rem;
+--pad: 5rem;
 }
 
 header{
@@ -21,14 +21,16 @@ background-color: aqua;
 nav{
 grid-area: nav;
 padding: var(--pad);
-writing-mode: horizontal;
 background-color: goldenrod;
-    list-style: none;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
 }
-
+/* this isn't doing anything
+nav div ul li a{
+list-style: none;
+margin: 0;
+display: inline-block;
+justify-content: space-around;
+}
+*/
 aside{
 grid-area: aside;
 padding: var(--pad);
